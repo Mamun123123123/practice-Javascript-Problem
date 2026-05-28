@@ -5,6 +5,7 @@ function fibonacci(n) {
     series.push(series[i - 1] + series[i - 2]);
   }
 
+
   return series.slice(0, n);
 }
 
