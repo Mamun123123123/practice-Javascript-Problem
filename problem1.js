@@ -7,3 +7,10 @@ function findMissing(arr, n) {
 }
 
 console.log(findMissing([1, 2, 3, 5], 5));
+
+
+function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
