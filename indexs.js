@@ -20,4 +20,6 @@ function secondLargest(arr) {
   return uniqueArr[1];
 }
 
+
+
 console.log(secondLargest([10, 5, 8, 20, 15]));
