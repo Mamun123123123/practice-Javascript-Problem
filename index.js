@@ -48,3 +48,19 @@ function secondLargest(arr) {
 
     return secondLargest === -Infinity ? null : secondLargest;
 }
+
+function findMissingNumber(arr) {
+    let n = arr.length + 1;
+
+    let totalSum = (n * (n + 1)) / 2;
+
+    let arrSum = 0;
+
+    for (let num of arr) {
+        arrSum += num;
+    }
+
+    return totalSum - arrSum;
+}
+
+console.log(findMissingNumber([1, 2, 3, 5, 6]));
