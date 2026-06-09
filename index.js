@@ -64,3 +64,12 @@ function findMissingNumber(arr) {
 }
 
 console.log(findMissingNumber([1, 2, 3, 5, 6]));
+
+function isPalindrome(str) {
+    let reversed = str.split('').reverse().join('');
+
+    return str === reversed;
+}
+
+console.log(isPalindrome("madam")); 
+console.log(isPalindrome("hello")); 
